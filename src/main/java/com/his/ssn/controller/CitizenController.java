@@ -27,7 +27,6 @@ public class CitizenController {
 		 
 		if (checkingCitizenData == null) {
 			
-			System.out.println("########################");
 			return new ResponseEntity<>(null, HttpStatus.OK);
 			
 		} else {
